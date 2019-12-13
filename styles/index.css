@@ -1,0 +1,26 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    position: fixed;
+}
+
+#headerImage {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    align-content: flex-start;
+    list-style: none;
+    align-items: flex-start;
+}
