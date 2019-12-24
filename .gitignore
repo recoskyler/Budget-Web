@@ -1,4 +1,5 @@
 user_data
+users.json
 
 # Logs
 logs
@@ -107,4 +108,5 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+users.json
 users.json
