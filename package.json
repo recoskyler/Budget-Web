@@ -4,6 +4,8 @@
   "description": "Budget App web interface",
   "main": "server.js",
   "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
@@ -13,8 +15,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node ./server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start server.js --watch --ignore-watch 'node_modules users.json'"
   },
   "repository": {
     "type": "git",

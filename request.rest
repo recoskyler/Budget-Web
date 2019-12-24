@@ -1,0 +1,43 @@
+GET https://recoskyler.ddns.net/
+
+###
+
+POST https://recoskyler.ddns.net/register Content-Type: application/json
+
+{
+    "name": "arman",
+    "surname": "yaosta",
+    "username": "ozdemir",
+    "email": "yaosta31@gmail.com",
+    "password": "abc123"
+}
+
+###
+
+POST https://recoskyler.ddns.net/register Content-Type: application/json
+
+{
+    name: "arman",
+    surname: "yaosta",
+    username: "ozdemir",
+    email: "yaosta31@gmail.com",
+    password: "abc123"
+}
+
+###
+
+POST https://recoskyler.ddns.net/login Content-Type: application/json
+
+{
+    "name": "DSGADFG",
+    "password": "abc123"
+}
+
+###
+
+POST https://recoskyler.ddns.net/login Content-Type: application/json
+
+{
+    "name": "usertest",
+    "password": "ab23"
+}
