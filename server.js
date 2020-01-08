@@ -4,7 +4,7 @@ const app = express();
 const expressLayouts = require('express-ejs-layouts');
 const indexRouter = require('./routes/index');
 const bcrypt = require('bcrypt');
-const bodyparser = require('body-parser');
+const bodyParser = require('body-parser');
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
@@ -107,8 +107,8 @@ app.use(expressLayouts);
 app.use(express.static('public'));
 app.use('/', indexRouter);
 app.use(express.json());
-app.use(bodyparser.json());
-app.use(bodyparser.urlencoded({extended : true}));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended : true}));
 
 
 app.post('/register', async (req, res) => {
